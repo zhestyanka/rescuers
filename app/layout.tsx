@@ -2,9 +2,17 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'СпасСлужба - Профессиональная спасательная служба',
+  description: 'Профессиональная спасательная служба. Спасение на воде, обучение, профилактика чрезвычайных ситуаций. Работаем 24/7.',
+  keywords: 'спасательная служба, спасение на воде, МЧС, безопасность, обучение спасателей',
+  authors: [{ name: 'СпасСлужба' }],
+  robots: 'index, follow',
+  openGraph: {
+    title: 'СпасСлужба - Профессиональная спасательная служба',
+    description: 'Профессиональная спасательная служба. Спасение на воде, обучение, профилактика чрезвычайных ситуаций.',
+    type: 'website',
+    locale: 'ru_RU',
+  },
 }
 
 export default function RootLayout({
@@ -13,8 +21,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="ru">
+      <body className="antialiased">
+        {children}
+      </body>
     </html>
   )
 }
