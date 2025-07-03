@@ -48,30 +48,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">1500+</div>
-              <div className="text-gray-600">Спасенных жизней</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">24/7</div>
-              <div className="text-gray-600">Готовность к вызову</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">200+</div>
-              <div className="text-gray-600">Волонтеров</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">15</div>
-              <div className="text-gray-600">Лет опыта</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
